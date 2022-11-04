@@ -1,14 +1,14 @@
 package main;
 
-import SadnessMethod.Priest;
-import SadnessMethod.Warrior;
-import TemplateMethod.CharacterTemplate;
-import SadnessMethod.Character;
+import sadnessmethod.Priest;
+import sadnessmethod.Warrior;
+import templatemethod.CharacterTemplate;
+import sadnessmethod.Character;
 
-import SadnessMethod.Monk;
-import TemplateMethod.Bard;
-import TemplateMethod.Druid;
-import TemplateMethod.Mage;
+import sadnessmethod.Monk;
+import templatemethod.Bard;
+import templatemethod.Druid;
+import templatemethod.Mage;
 
 public class CharacterCasting {
     public static void main(String[] args) {

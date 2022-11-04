@@ -1,8 +1,10 @@
-package SadnessMethod;
+package sadnessmethod;
 
 public abstract class Character {
     private String name;
 
+    //Method that all subclasses follow that uses abstract classes
+    //Each abstract class will need to be overridden in each subclass
     public final void castSpells(){
         teleportToFight();
         castSpell1();
@@ -10,6 +12,7 @@ public abstract class Character {
 
     }
 
+    //Abstract methods that all subclasses will have
     abstract void teleportToFight();
     abstract void castSpell1();
     abstract void castSpell2();

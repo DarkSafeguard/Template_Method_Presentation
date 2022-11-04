@@ -1,4 +1,4 @@
-package SadnessMethod;
+package sadnessmethod;
 
 public class Warrior extends Character{
     @Override

@@ -1,4 +1,4 @@
-package TemplateMethod;
+package templatemethod;
 
 public abstract class CharacterTemplate {
 
@@ -14,6 +14,7 @@ public abstract class CharacterTemplate {
 
     }
 
+    //A method that saves subclasses from overriding is important to have in a Template Method
     public void teleportToFight(){
         System.out.println(getName() + " Teleported into the fight!");
     }

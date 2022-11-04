@@ -1,14 +1,15 @@
-package TemplateMethod;
+package sadnessmethod;
 
-public class Mage extends CharacterTemplate {
+public class Priest extends Character{
+
     @Override
     void castSpell1() {
-        System.out.println("Casting Fireball");
+        System.out.println("Casting Cleansing Aura");
     }
 
     @Override
     void castSpell2() {
-        System.out.println("Casting Chain Lightning");
+        System.out.println("Casting Redemption");
     }
 
     @Override

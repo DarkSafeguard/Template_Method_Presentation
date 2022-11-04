@@ -1,4 +1,4 @@
-package TemplateMethod;
+package templatemethod;
 
 public class Bard extends CharacterTemplate {
     @Override

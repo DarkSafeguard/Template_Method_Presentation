@@ -1,4 +1,4 @@
-package TemplateMethod;
+package templatemethod;
 
 public class Druid extends CharacterTemplate {
     @Override

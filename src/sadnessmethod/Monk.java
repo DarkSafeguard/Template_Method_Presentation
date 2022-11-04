@@ -1,4 +1,4 @@
-package SadnessMethod;
+package sadnessmethod;
 
 public class Monk extends Character{
     @Override
