@@ -5,6 +5,8 @@ public abstract class Character {
 
     //Method that all subclasses follow that uses abstract classes
     //Each abstract class will need to be overridden in each subclass
+
+    //Are there any methods EVERYONE should have?
     public final void castSpells(){
         teleportToFight();
         castSpell1();

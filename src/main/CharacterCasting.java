@@ -1,14 +1,12 @@
 package main;
 
+import nomethod.Knight;
 import sadnessmethod.Priest;
 import sadnessmethod.Warrior;
-import templatemethod.CharacterTemplate;
+import templatemethod.*;
 import sadnessmethod.Character;
 
 import sadnessmethod.Monk;
-import templatemethod.Bard;
-import templatemethod.Druid;
-import templatemethod.Mage;
 
 public class CharacterCasting {
     public static void main(String[] args) {
@@ -29,6 +27,8 @@ public class CharacterCasting {
         mageMain.castSpells();
 
         System.out.println();
+        System.out.println("---------------------------------------");
+        System.out.println();
 
         Character monkMain = new Monk();
         monkMain.setName("Monk");
@@ -45,5 +45,13 @@ public class CharacterCasting {
         Character warriorMain = new Warrior();
         warriorMain.setName("Warrior");
         warriorMain.castSpells();
+
+        System.out.println();
+        System.out.println("---------------------------------------");
+        System.out.println();
+
+        Knight knightMain = new Knight();
+        knightMain.setName("Knight");
+        knightMain.castSpells();
     }
 }

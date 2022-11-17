@@ -4,9 +4,6 @@ public abstract class CharacterTemplate {
 
     private String name;
 
-    //Template Method That All Subclasses Follow.
-    //All Character Subclasses Will Have Their Own Spells To Cast And Will Need To Override Those Methods
-    //All Character Subclasses Will Use The teleportToFight() Method The Same Way Unless Overridden
     public final void castSpells(){
         teleportToFight();
         castSpell1();
@@ -14,7 +11,6 @@ public abstract class CharacterTemplate {
 
     }
 
-    //A method that saves subclasses from overriding is important to have in a Template Method
     public void teleportToFight(){
         System.out.println(getName() + " Teleported into the fight!");
     }
