@@ -1,6 +1,5 @@
 package main;
 
-import nomethod.Knight;
 import sadnessmethod.Priest;
 import sadnessmethod.Warrior;
 import templatemethod.*;
@@ -50,8 +49,5 @@ public class CharacterCasting {
         System.out.println("---------------------------------------");
         System.out.println();
 
-        Knight knightMain = new Knight();
-        knightMain.setName("Knight");
-        knightMain.castSpells();
     }
 }

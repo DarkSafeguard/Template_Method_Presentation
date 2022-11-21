@@ -1,6 +1,6 @@
 package nomethod;
 
-public class Knight {
+public class Priest {
     private String name;
 
     public String getName() {
@@ -29,3 +29,4 @@ public class Knight {
         castSpell2();
     }
 }
+

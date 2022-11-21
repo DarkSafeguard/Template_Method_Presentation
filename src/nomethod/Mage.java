@@ -1,6 +1,6 @@
 package nomethod;
 
-public class Knight {
+public class Mage {
     private String name;
 
     public String getName() {
